@@ -1,3 +1,18 @@
+"""
+
+Group: Chaya Mizrachi ID: 214102584,
+        Yael Siman-Tov ID:325181295,
+        Linoy Nisim Pur ID: 324029685
+        Shaindel Saymon  ID: 214223299
+Source Git: lihiSabag https://github.com/lihiSabag/Numerical-Analysis-2023.git
+GitHub of this project: https://github.com/YaelSimanTov/Work4_A_AnalizaNomerit.git
+"""
+
+
+
+
+
+
 import numpy as np
 
 
@@ -334,9 +349,6 @@ if __name__ == '__main__':
     x = -2
     table_points = [(0, 0),(1, 0.8415),(2, 0.9093),(3, 0.1411),(4, -0.7568),(5, -0.9589),(6, -0.2794)]
     x = 1.28
-    table_points = [(1.2, -1.2),(1.3, -2.3),(1.4, -0.5),(1.5, 0.89),(1.6, 1.37)]
-    xa = 1.35
-    xb=1.55
 
 
 
@@ -354,8 +366,6 @@ if __name__ == '__main__':
         polynomialInterpolation(table_points, x)
     elif choice == 3:
         lagrange_interpolation(table_points, x)
-    #elif choice == 4:
-        #cubicSpline(table_points,x)
 
     else:
         print(bcolors.FAIL, "Invalid input", bcolors.ENDC)
